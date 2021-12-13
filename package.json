@@ -4,6 +4,7 @@
   "description": "Bookshelf API using Node.js and Hapi Framework",
   "main": "index.js",
   "scripts": {
+    "start-prod": "NODE-ENV=production node ./src/server.js",
     "start-dev": "nodemon server.js",
     "lint": "eslint ./src"
   },
