@@ -1,0 +1,21 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "Bookshelf API using Node.js and Hapi Framework",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon server.js",
+    "lint": "eslint ./src"
+  },
+  "author": "Ferry Yun Kurniawan",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "nanoid": "^3.1.30"
+  }
+}
